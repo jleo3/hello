@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/jleo3/stringutil"
+)
 
 func main() {
-	fmt.Printf("Hello, Joe.\n")
+	fmt.Printf(stringutil.Reverse("Hello, Joe.\n"))
 }
+
